@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return "Hello from EC2! Running FastAPI Application via systemd!"
+    return "FastAPI running inside Docker!"
 
 @app.get("/health")
 def health():
