@@ -30,6 +30,6 @@ def health():
         status_code=200
     )
 
-@app.get("/ping")
-def ping():
-    return JSONResponse(content={"message": "pong"}, status_code=200)
+# @app.get("/ping")
+# def ping():
+#     return JSONResponse(content={"message": "pong"}, status_code=200)
